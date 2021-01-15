@@ -1,0 +1,306 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#encabezado{
+  margin: 0;
+  padding: 0;
+  background-image: url(FondoCv.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#Titulo{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  height: 150px;
+  padding-top: 1px;
+  text-shadow: 6px 6px 6px rgb(153, 153, 153);
+}
+.izquierda{
+  background: rgb(0, 65, 206);
+  height: 100vh;
+  width: 30%;
+  text-align: center;
+}
+.derecha{
+  background-color: rgb(17, 19, 122);
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  height: 100vh;
+}
+#pantallaDividida{
+  display: flex;
+}
+img{
+  width: 80%;
+  padding-left: 2px;
+  padding-top: 20px;
+}
+#name{
+  color: aliceblue;
+  font-size: 250%;
+  font-family: 'Kanit', sans-serif; 
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+#lastname{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+#descPersonal{
+  padding-top: 70px;
+  text-align: center;
+}
+#tituloDescPersonal{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  text-shadow: 3px 3px 3px rgb(34, 34, 34);
+}
+#contenedorDescPersonal{
+  background-color: #0041ce;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0px;
+  margin-right: 50px;
+  text-align: justify;
+  padding: 10px;
+  padding-left: 50px;
+}
+#textoDesPer{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  padding: 10px;
+}
+.izquierda2{
+  background: rgb(255, 255, 255);
+  height: 100vh;
+  width: 50%;
+  border-right: 15px double rgb(17, 19, 122);
+}
+.derecha2{
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
+}
+#pantallaDividida2{
+  display: flex;
+}
+#tituloEdu{
+  background-color: rgb(0, 65, 206);
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif; 
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+.items{
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-family: 'Kanit', sans-serif;
+}
+#barra1{
+  color: rgb(17, 19, 122);
+}
+.subItems{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+}
+#barra2{
+  color: rgb(0, 65, 206);
+}
+#lista1{
+  margin-top: 100px;
+  margin-right: 40px;
+  text-align: right;
+}
+
+#tituloExp{
+  background-color: rgb(0, 65, 206);
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif; 
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+.items2{
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-family: 'Kanit', sans-serif;
+}
+#barra1{
+  color: rgb(17, 19, 122);
+}
+.subItems2{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+}
+#barra2{
+  color: rgb(0, 65, 206);
+}
+#lista2{
+  margin-top: 100px;
+  margin-right: 40px;
+  text-align: left;
+}
+#skills{
+  display: flex;
+}
+.arriba{
+  background: rgb(255, 255, 255);
+  height: 430px;
+  width: 70%;
+  text-align: center;
+  border-top: 4px solid rgb(17, 19, 122);
+}
+.tituloSkills{
+  border: 3px solid rgb(17, 19, 122);
+  display: table;
+  height: 50px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 150px;
+  margin-top: 0;
+}
+.tituloSkills h1{
+  display: table-cell;
+  font-size: 30px;
+  margin: 0;
+  padding: 0 1rem;
+  color: rgb(0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  vertical-align: middle;
+  background-size: 0 1rem;
+}
+.contSkillsP{
+  display: table;
+  width: 220px;
+  height: 300px;
+  padding: 1em;
+  margin: 1em;
+  float: left;
+  font-size: 20px;
+}
+#nivel{
+  color: yellow;
+}
+#item1{
+  text-align: center;
+  background-color: rgb(0, 65, 206);
+  margin-left: 40px; 
+}
+#item1 h1{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin: 0;
+  border-bottom: 2px solid white;
+}
+#item1 ul{
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+#item2{
+  background-color: rgb(0, 65, 206); 
+}
+#item2 h1{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin: 0;
+  border-bottom: 2px solid white;
+}
+#item2 ul{
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+#item3{
+  text-align: center;
+  background-color: rgb(0, 65, 206);
+}
+#item3 h1{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin: 0;
+  border-bottom: 2px solid white;
+}
+#item3 ul{
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+.abajo{
+  background-color: rgb(17, 19, 122);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 430px;
+  text-align: center;
+  padding: 10px;
+}
+.tituloHobbies h1{
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 0 1rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+  vertical-align: middle;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+#ulHobbies{
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+#ulHobbies ul{
+  padding: 0;
+}
+#contenedorUlti{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 65, 206);
+  text-align: center;
+  height: 350px;
+  width: 100%;
+}
+#contenedorUlti h1{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'Kanit', sans-serif;
+}
+#contenedorUlti p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  margin: 10px;
+}
